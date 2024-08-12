@@ -17,7 +17,7 @@ int dy[] = {-1, 0, 1, 0};
 
 /*
     ( (x+dx[j]) >=0) && ( (x+dx[j])<h ) &&( (y+dy[j])>=0 )&&( (y+dy[j])<w) )
-    nén
+    compression
     w*i+j
     i:h, j:w
     x=z/w,y=z%w;
