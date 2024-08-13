@@ -38,6 +38,14 @@ void _print(char a) { cout << a; }
 void _print(string a) { cout << a; }
 void _print(bool a) { cout << a; }
 
+bool cmpPairs_1st(const std::pair<ll, ll>& a, const std::pair<ll, ll>& b) {
+    return a.first > b.first;
+}
+
+bool cmpPairs_2nd(const std::pair<ll, ll>& a, const std::pair<ll, ll>& b) {
+    return a.second > b.second;
+}
+
 typedef pair<int, int> pair_ii;
 
 void solve(){
