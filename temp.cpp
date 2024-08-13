@@ -45,7 +45,7 @@ void solve(){
 }
 
 int main (){
-	
+	// freopen("inp.txt", "r", stdin);
 	int t;
 	cin >> t;
 	while (t--) {
